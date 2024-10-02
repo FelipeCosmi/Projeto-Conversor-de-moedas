@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Convert Money</title>
+</head>
+
+<body> <!--fundo total-->
+
+    <img src="./assets/logo.gif" alt="logo" id="logo-inicio">
+
+    <main> <!--Estrutura inteira do conversor-->
+        <div> <!--Estrutura inserir dados p converter-->
+            <label>
+                <p class="p-label">Converter <b>de:</b></p>
+                <select>
+                    <option value="real-br">R$ Real Brasileiro</option>
+                </select>
+            </label>
+
+            <label>
+                <p class="p-label">Converter <b>para:</b></p>
+                <select class="currency-select">
+                    <option value="dolar-usa">US$ Dólar Americano</option>
+                    <option value="euro">€ Euro</option>
+                </select>
+            </label>
+
+            <label>
+                <p class="p-label"><b>Valor:</b></p>
+                <input class="input-currency" placeholder="R$ 10.000,00">
+            </label>
+
+            <button class="convert-button">Converter</button>
+        </div>
+
+        <section> <!--Estrutura de converter-->
+            <label> <!--Estrutura que converte-->
+                <div>
+                    <img src="./assets/real-brasil.png" alt="logo-moeda-converter" class="logo-moeda-converter">
+                    <p class="p-moeda">Real</p>
+                    <p class="currency-value-to-convert">R$ 0,00</p>
+                </div>
+
+                <img src="./assets/arrow.png" alt="seta" class="arrow-converter">
+
+                <div>
+                    <img src="./assets/dolar-usa.png" alt="logo-moeda-cenvertida" class="logo-moeda-converter" id="currency-image">
+                    <p class="p-moeda" id="currency-name">Dólar Americano</p>
+                    <p class="currency-value">US$ 0,00</p>
+                </div>
+            </label>
+        </section>
+
+    </main>
+</body>
+
+<script src="./scripts.js"></script>
+
+</html>
