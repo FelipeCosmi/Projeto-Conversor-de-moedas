@@ -7,24 +7,23 @@ function convertValues() {
     const currencyValueToConvert = document.querySelector(".currency-value-to-convert") //real
     const currencyValueConverted = document.querySelector(".currency-value") //dolar-outras moedas
 
-    const dolarUsaToday = 5
-    const euroToday = 6
-    const libraToday = 7
-    const bitcoinToday = 329079.81
-    const venToday = 0.2
-    const bolivianoToday = 0.4
-    const dinarKuwaitToday = 500
-    const dolarAusToday = 4
-    const dolarCanToday = 2
-    const francoToday = 4.5
-    const ieneToday = 1.5
-    const liraTurcaToday = 3.2
-    const pesoArgToday = 0.7
-    const pesoChiToday = 0.9
-    const pesoColToday = 0.3
-    const pesoUruToday = 0.6
-    //const realBrToday = 1
-    const chinaToday = 1.4
+    const dolarUsaToday = 5.46
+    const euroToday = 5.99
+    const libraToday = 7.17
+    const bitcoinToday = 340937.18
+    const venToday = 0.15
+    const bolivianoToday = 0.79
+    const dinarKuwaitToday = 17.83
+    const dolarAusToday = 3.71
+    const dolarCanToday = 4.02
+    const francoToday = 6.36
+    const ieneToday = 0.037
+    const liraTurcaToday = 0.16
+    const pesoArgToday = 0.0056
+    const pesoChiToday = 0.0059
+    const pesoColToday = 0.0013
+    const pesoUruToday = 0.13
+    const chinaToday = 0.78
 
     if (currencySelect.value == "dolar-usa") {
         currencyValueConverted.innerHTML = new Intl.NumberFormat("en-US", {
