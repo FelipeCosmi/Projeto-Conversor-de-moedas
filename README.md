@@ -1,7 +1,7 @@
 ## Conversor de Moedas 🪙💵💶💷💴💰
 
-<p>Projeto simples que desenvolvi para absorver conceitos de JavaScript + Responsividade para desktop, tablet e mobile 🚀</p>
-
+<p>Projeto que desenvolvi para absorver conceitos de JavaScript + Responsividade para desktop, tablet e mobile 🚀</p>
+<p>Ainda sem o uso de uma API para converter em tempo real os valores das moedas, valores utilizados são do dia 04/10/2024 🫡</p>
 <h3>Tecnologias utilizadas:</h3>
 
 <p>
